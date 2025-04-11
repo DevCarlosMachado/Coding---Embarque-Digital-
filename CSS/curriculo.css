@@ -1,0 +1,40 @@
+:root {
+  --cor1: #F8F4E1;
+  --cor2: #FEBA17;
+  --cor3: #74512D;
+  --cor4: #4E1F00;
+}
+
+body {
+  background-color: var(--cor4);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+  margin: 5%;
+}
+
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: wheat;
+}
+
+a:link {
+  color: white;
+}
+a:hover {
+  color: blue;
+  font-size: 18px;
+}
+
+h1,h2,h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: var(--cor1);
+}
+
+p {
+  text-align: justify;
+}
+
+.centralizar {
+  text-align: center;
+}
