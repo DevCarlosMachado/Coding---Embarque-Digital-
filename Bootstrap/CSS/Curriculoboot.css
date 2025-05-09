@@ -1,0 +1,80 @@
+:root {
+  --corBranca: #ffffff;
+  --corPreta: #000000;
+  --cor2: #609E46;
+  --cor3: #87A17C;
+  --cor4: #283323;
+  --cor5: #b1bbad;
+}
+
+body {
+  background-color: var(--cor4);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+  margin: 5%;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#menuCarlos {
+  background-color: var(--cor3);
+  padding: 1em;
+}
+
+.scroll {
+  scroll-margin-top: 80px;
+}
+
+a.menuCarlos {
+  color: var(--corBranca);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.5em;
+  transition: backgroun-color 0.3s, color 0.3s;
+}
+
+a.menuCarlos:hover {
+  background-color: var(--cor4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cor5);
+}
+
+div.hrBcg {
+  background-color: var(--cor3);
+}
+
+footer {
+  background-color: var(--cor3);
+  padding: 1em;
+  text-align: center;
+}
+
+.formulario {
+  background-color: var(--cor3);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario:hover {
+  background-color: var(--cor5);
+  color: var(--cor4);
+}
+
+.formulario:active {
+  background-color: var(--cor5);
+  color: var(--cor4);
+}
+
+.obrigatorio {
+  color: var(--corBranca);
+}
+
+.tab {
+  margin-left: 1em;
+}
