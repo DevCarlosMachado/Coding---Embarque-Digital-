@@ -1,0 +1,45 @@
+/* Importa uma fonte do Google Fonts para um visual mais moderno */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    background-color: #98b9e9; /* Cor de fundo suave */
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte importada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo ocupe a altura total da tela */
+}
+
+/* Estilo para o cartão (card) que contém o formulário */
+.card {
+    border: none; /* Remove a borda padrão do Bootstrap */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    background-color: #f0f0f0c2; /* Cor de fundo branca */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse sobre o cartão */
+.card:hover {
+    transform: translateY(-5px); /* Move o cartão ligeiramente para cima */
+}
+
+/* Estilo para o botão */
+#convert-btn {
+    background-color: #007bff; /* Cor azul padrão do Bootstrap */
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+#convert-btn:hover {
+    background-color: #0056b3; /* Um tom de azul mais escuro */
+}
+
+/* Estilo para o texto de resultado */
+#result {
+    font-weight: 700; /* Deixa o texto em negrito */
+    color: #333; /* Cor de texto mais escura */
+    min-height: 24px; /* Garante um espaço reservado, evitando que o layout mude quando o resultado aparecer */
+}
